@@ -1,0 +1,13 @@
+{
+  "name": "procvic/sendgrid",
+  "type": "library",
+  "require": {
+    "nette/di": "~2.3",
+    "sendgrid/sendgrid": "~2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Procvic\\Sendgrid\\": "src/"
+    }
+  }
+}
